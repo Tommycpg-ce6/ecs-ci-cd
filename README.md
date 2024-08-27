@@ -5,3 +5,12 @@ This is a sample application used to demonstrate a POC of using GitHub Actions t
 # Architecture Diagram
 
 ![githubactionecr drawio](https://user-images.githubusercontent.com/48310743/232531154-c0dd01d5-8666-4619-af29-aa2d7c2a7e7b.png)
+
+
+echo "# ecs-ci-cd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Tommycpg-ce6/ecs-ci-cd.git
+git push -u origin main
